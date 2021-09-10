@@ -12,7 +12,7 @@ export default function DetailScreen({route}) {
 
     UpdateProductPrice=()=>{
       if (productPrice.length>2) {
-        fetch('http://localhost:8888/updateProduct.php', {
+        fetch('https://bahadirtiras.com.tr/akinsoftApi/updateProduct.php', {
           method: 'POST',
           headers: {
             Accept: 'application/json',
